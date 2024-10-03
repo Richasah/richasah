@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>calculater</title>
+ <link rel="stylesheet" href="calculater.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="work" readonly >
+        <div class="buttoncontainer">
+            <button onclick="currentValue='';
+               document.querySelector('#work').value=currentValue;"
+            >c</button>
+            <button onclick="currentValue=currentValue+'1';
+             document.querySelector('#work').value=currentValue;"
+            >1</button>
+            <button onclick="currentValue=currentValue+'2';
+             document.querySelector('#work').value=currentValue;">2</button>
+            <button onclick="currentValue=currentValue+'3'; 
+            document.querySelector('#work').value=currentValue;">3</3button>
+            <button onclick="currentValue=currentValue+'+';
+             document.querySelector('#work').value=currentValue;">+</button>
+
+            <button onclick="currentValue=currentValue+'4';
+             document.querySelector('#work').value=currentValue;" >4</button>
+
+            <button onclick="currentValue=currentValue+'5';
+             document.querySelector('#work').value=currentValue;">5</button>
+
+            <button onclick="currentValue=currentValue+'6'; 
+            document.querySelector('#work').value=currentValue;" >6</button>
+
+            <button onclick="currentValue=currentValue+'-'; 
+            document.querySelector('#work').value=currentValue;">-</button>
+
+            <button onclick="currentValue=currentValue+'7';
+             document.querySelector('#work').value=currentValue;">7</button>
+             
+            <button onclick="currentValue=currentValue+'8';
+             document.querySelector('#work').value=currentValue;">8</button>
+
+            <button onclick="currentValue=currentValue+'9';
+             document.querySelector('#work').value=currentValue;">9</button>
+
+            <button onclick="currentValue=currentValue+'*';
+             document.querySelector('#work').value=currentValue;">*</button>
+
+            <button onclick="currentValue=currentValue+'/'; 
+            document.querySelector('#work').value=currentValue;">/</button>
+
+            <button onclick="currentValue=currentValue+'0'; 
+            document.querySelector('#work').value=currentValue;">0</button>
+
+            
+            <button onclick="currentValue=currentValue+'.'; 
+            document.querySelector('#work').value=currentValue;">.</button>
+       
+
+            <button onclick="currentValue=eval(currentValue);
+             document.querySelector('#work').value=currentValue;">=</button>
+
+        </div>
+
+    </div>
+            <button id="background"></button>
+            <button id="background1"></button>
+            <button id="background2"></button>
+            <button id="background3"></button>
+            <button id="background4"></button>
+            <button id="background5"></button>
+
+
+<script src="calculater.js"></script>    
+</body>
+</html>
