@@ -1,0 +1,73 @@
+		*{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+    }
+    header{
+        background-color: rgb(226, 217, 217);
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        box-shadow: 10px 10px 15px rgb(173, 171, 171);
+   
+      
+    }
+    header img{
+        mix-blend-mode: color-burn;
+       padding: 15px;
+       margin-left: 15px;
+    }
+    nav li{
+        display: inline-block;
+        margin-right: 30px;
+        padding: 8px;
+        margin-top: 10px;
+        background-color: rgb(84, 69, 165);
+        border-radius: 50%;
+
+    }
+    .menu{
+        background-color: transparent;
+     
+    }
+    .container h2{
+        color: blue;
+        text-transform: capitalize;
+        margin-left: 86px;
+        margin-top: 2%;
+    }
+    .content{
+        background-color: rgb(226, 217, 217);
+        width: 87%;
+        height: 80px;
+        margin: auto;
+        padding: 10px;
+        margin-top: 1.5%;
+    
+        
+    }
+    .content b{
+        text-transform: capitalize;
+        font-weight: 2.6v;
+   
+        margin: 20px 0 10px 10px;
+      
+    }
+    button{
+        width: 110px;
+        padding:7px 14px 7px 10px;
+        text-transform: capitalize;
+     
+        position: absolute;
+        top: 14%;
+        right: 90px;
+        border-radius: 5px;
+      
+        color: white;
+        background-color: rgb(84, 69, 165) ;
+    }
+    .content p{
+        margin-left:10px ;
+        text-transform: lowercase;
+
+    }
